@@ -1,0 +1,27 @@
+name: state_management
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"  # Sesuaikan dengan versi Flutter dan Dart terbaru
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.0  # Dependensi untuk manajemen state
+  flutter_hooks: ^0.20.5
+  redux: ^5.0.0
+  flutter_redux: ^0.10.0
+  scoped_model: ^2.0.0
+  http: ^0.13.5 
+  dio: ^4.0.0 # Dependensi untuk melakukan permintaan HTTP
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0  # Linting untuk meningkatkan kualitas kode
+
+flutter:
+  uses-material-design: true
